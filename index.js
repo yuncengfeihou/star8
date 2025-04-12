@@ -997,7 +997,7 @@ jQuery(async () => {
             #favorites-popup-content {
                 padding: 10px;
                 max-height: 70vh;
-                overflow-y: auto;
+                overflow-y: visible;
             }
             #favorites-popup-content .favorites-header {
                 display: flex;
@@ -1053,7 +1053,7 @@ jQuery(async () => {
                 margin-bottom: 5px;
                 line-height: 1.4;
                 max-height: 200px;
-                overflow-y: auto;
+                overflow-y: visible;
                 word-wrap: break-word;
                 white-space: pre-wrap;
                 text-align: left;
