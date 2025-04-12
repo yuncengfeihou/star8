@@ -1114,6 +1114,7 @@ jQuery(async () => {
                 font-size: 0.75em;
                 color: #bbb;
                 text-align: left;
+                font-style: italic;
                 display: inline-flex; /* 让内部的 span 和文本表现得更像一行 */
                 flex-shrink: 0;         /* 防止日期被过度压缩 (可选) */
                 align-items: baseline;
