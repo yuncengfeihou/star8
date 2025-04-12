@@ -379,7 +379,7 @@ function renderFavoriteItem(favItem, index) {
                 </div>
                 <div class="fav-meta">${favItem.sender}</div> 
             </div>
-            <div class="fav-note" style="${favItem.note ? '' : 'display:none;'}">备注：${favItem.note || ''}</div>
+            <div class="fav-note" style="${favItem.note ? '' : 'display:none;'}">${favItem.note || ''}</div>
             <div class="fav-preview ${deletedClass}">${previewText}</div>
             <div class="fav-actions">
                 <i class="fa-solid fa-pencil" title="编辑备注"></i>
