@@ -1115,8 +1115,20 @@ jQuery(async () => {
                 font-size: 0.75em;
                 color: #bbb;
                 text-align: left;
-                /* margin-bottom: 5px; */ /* <--- 移除或注释掉这行 */
+                display: inline-flex; /* 让内部的 span 和文本表现得更像一行 */
                 flex-shrink: 0;         /* 防止日期被过度压缩 (可选) */
+                align-items: baseline;
+            }
+
+            #favorites-popup-content .fav-send-date .fav-mesid { /* 选择器：目标是 fav-mesid span */
+                margin-left: 8px;       /* 在日期和 mesid 之间添加一些水平间距 */
+                color: #999;           /* 设置稍浅的颜色以区分 */
+                font-size: 0.9em;       /* 可以让它比日期稍微小一点 (可选) */
+                font-style: italic; */ /* 可选：斜体 */
+                /* font-weight: bold; */ /* 可选：粗体 */
+                /* background-color: rgba(255, 255, 255, 0.05); */ /* 可选：添加微弱背景 */
+                /* padding: 1px 4px; */  /* 可选：添加内边距 */
+                border-radius: 3px; */ /* 可选：圆角 */
             }
 
             #favorites-popup-content .fav-header-info {
