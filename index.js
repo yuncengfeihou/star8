@@ -40,7 +40,7 @@ import {
 } from '../../../utils.js';
 
 // Define plugin folder name (important for consistency)
-const pluginName = 'star7'; // 保持文件夹名称一致
+const pluginName = 'star8'; // 保持文件夹名称一致
 
 // Initialize plugin settings if they don't exist
 if (!extension_settings[pluginName]) {
