@@ -1047,6 +1047,7 @@ jQuery(async () => {
                 border-left: 3px solid #ffcc00;
                 margin-bottom: 5px;
                 font-style: italic;
+                text-align: left;
             }
             #favorites-popup-content .fav-preview {
                 margin-bottom: 5px;
@@ -1055,6 +1056,7 @@ jQuery(async () => {
                 overflow-y: auto;
                 word-wrap: break-word;
                 white-space: pre-wrap;
+                text-align: left;
             }
             #favorites-popup-content .fav-preview.deleted {
                 color: #ff3a3a;
