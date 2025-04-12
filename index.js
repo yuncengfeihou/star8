@@ -1103,7 +1103,6 @@ jQuery(async () => {
                 align-items: center;
                 margin-top: 15px;
                 padding-top: 10px;
-                border-top: 1px solid #444;
             }
 
 
