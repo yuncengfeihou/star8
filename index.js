@@ -373,12 +373,11 @@ function renderFavoriteItem(favItem, index) {
     return `
         <div class="favorite-item" data-fav-id="${favItem.id}" data-msg-id="${favItem.messageId}" data-index="${index}">
             <div class="fav-header-info">
-                 {/* -- 在日期 div 内部添加 mesid -- */}
                 <div class="fav-send-date">
                     ${sendDateString}
-                    <span class="fav-mesid" title="原始消息索引 (mesid)">${formattedMesid}</span> {/* <-- 新增 span 显示 mesid */}
+                    <span class="fav-mesid" title="原始消息索引 (mesid)">${formattedMesid}</span> 
                 </div>
-                <div class="fav-meta">${favItem.sender} (${favItem.role})</div> {/* 发送者和角色 */}
+                <div class="fav-meta">${favItem.sender}</div> 
             </div>
             <div class="fav-note" style="${favItem.note ? '' : 'display:none;'}">备注：${favItem.note || ''}</div>
             <div class="fav-preview ${deletedClass}">${previewText}</div>
