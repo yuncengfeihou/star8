@@ -1025,7 +1025,6 @@ jQuery(async () => {
                 padding: 20px;
             }
             #favorites-popup-content .favorite-item {
-                border: 1px solid #444;
                 border-radius: 8px;
                 margin-bottom: 10px;
                 padding: 10px;
@@ -1103,6 +1102,20 @@ jQuery(async () => {
                 align-items: center;
                 margin-top: 15px;
                 padding-top: 10px;
+            }
+
+
+            #favorites-popup-content .fav-preview pre {
+                display: block;         /* 确保是块级元素 */
+                width: 100%;            /* 强制宽度为100% */
+                box-sizing: border-box; /* 让 padding 和 border 包含在 width 内 */
+                overflow-x: auto;       /* 如果代码过长，允许水平滚动 */
+                white-space: pre-wrap;  /* 保持格式，但允许自动换行 */
+                /* 你可能还需要根据你的代码高亮库调整这里的背景色和内边距， */
+                /* 例如： */
+                /* background-color: #222; /* 假设这是你的代码块背景色 */ */
+                /* padding: 10px;          /* 示例内边距 */ */
+                margin-bottom: 5px; /* 与普通文本保持一致的下边距 (可选) */
             }
 
 
