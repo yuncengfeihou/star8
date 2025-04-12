@@ -1053,7 +1053,7 @@ jQuery(async () => {
                 margin-bottom: 5px;
                 line-height: 1.4;
                 max-height: 200px;
-                overflow-y: visible;
+                overflow-y: auto;
                 word-wrap: break-word;
                 white-space: pre-wrap;
                 text-align: left;
